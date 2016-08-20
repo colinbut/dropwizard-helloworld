@@ -6,7 +6,7 @@ import io.dropwizard.setup.Environment;
 
 /**
  * Application class
- * 
+ *
  * @author colin
  */
 public class HelloWorldApplication extends Application<HelloWorldConfiguration> {
