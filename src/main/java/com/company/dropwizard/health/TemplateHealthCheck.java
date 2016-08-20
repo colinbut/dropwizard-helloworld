@@ -3,7 +3,7 @@
  * | Copyright © 2016 Colin But. All rights reserved. 
  * |-------------------------------------------------
  */
-package com.company.dropwizard;
+package com.company.dropwizard.health;
 
 import com.codahale.metrics.health.HealthCheck;
 

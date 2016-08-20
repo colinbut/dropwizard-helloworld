@@ -3,9 +3,10 @@
  * | Copyright © 2016 Colin But. All rights reserved. 
  * |-------------------------------------------------
  */
-package com.company.dropwizard;
+package com.company.dropwizard.resources;
 
 import com.codahale.metrics.annotation.Timed;
+import com.company.dropwizard.core.Saying;
 import com.google.common.base.Optional;
 
 import javax.ws.rs.GET;

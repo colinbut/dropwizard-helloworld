@@ -1,5 +1,7 @@
 package com.company.dropwizard;
 
+import com.company.dropwizard.health.TemplateHealthCheck;
+import com.company.dropwizard.resources.HelloWorldResource;
 import io.dropwizard.Application;
 import io.dropwizard.setup.Bootstrap;
 import io.dropwizard.setup.Environment;
