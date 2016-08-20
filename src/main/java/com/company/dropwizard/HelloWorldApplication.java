@@ -4,10 +4,10 @@ import io.dropwizard.Application;
 import io.dropwizard.setup.Bootstrap;
 import io.dropwizard.setup.Environment;
 
-public class DropWizard HelloWorldApplication extends Application<DropWizard HelloWorldConfiguration> {
+public class HelloWorldApplication extends Application<HelloWorldConfiguration> {
 
     public static void main(final String[] args) throws Exception {
-        new DropWizard HelloWorldApplication().run(args);
+        new HelloWorldApplication().run(args);
     }
 
     @Override
@@ -16,12 +16,12 @@ public class DropWizard HelloWorldApplication extends Application<DropWizard Hel
     }
 
     @Override
-    public void initialize(final Bootstrap<DropWizard HelloWorldConfiguration> bootstrap) {
+    public void initialize(final Bootstrap<HelloWorldConfiguration> bootstrap) {
         // TODO: application initialization
     }
 
     @Override
-    public void run(final DropWizard HelloWorldConfiguration configuration,
+    public void run(final HelloWorldConfiguration configuration,
                     final Environment environment) {
         // TODO: implement application
     }
