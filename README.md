@@ -26,3 +26,12 @@ Allowing us to build and ship high performant production-quality RESTful web ser
 6. Looks easy to develop and work with
 7. Has lots of 'friends' i.e. common open source libraries within the Java ecosystem is bundled
 8. Mavenised
+
+
+### Using
+
+Can easily generate a dropwizard project using maven archetype:
+
+```
+mvn archetype:generate -DarchetypeGroupId=io.dropwizard.archetypes -DarchetypeArtifactId=java-simple -DarchetypeVersion=0.9.1
+```
